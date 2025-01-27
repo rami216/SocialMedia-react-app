@@ -1,0 +1,24 @@
+# Backend
+backend/__pycache__/
+backend/*.py[cod]
+backend/.env
+
+# Exclude SQLite database (for development only)
+backend/db.sqlite3
+
+# Exclude media files (use cloud storage in production)
+backend/media/
+
+# Exclude static files (use collectstatic in production)
+backend/staticfiles/
+
+# Virtual Environment
+socialenv/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+
+# General
+.DS_Store
+*.log
